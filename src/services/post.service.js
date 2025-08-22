@@ -94,7 +94,6 @@ export const getPost = async (id) => {
 		where: { id },
 		select: {
 			// ⚠️ di schema kamu namanya "Posts" (kapital). Kalau diganti "posts" lebih konvensional.
-
 			id: true,
 			title: true,
 			content: true,
